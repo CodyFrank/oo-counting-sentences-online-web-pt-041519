@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     string = self.squeeze(".!?")
-    array = string.split(".","!")
+    array = string.split(/[.?!]/)
 
 
     binding.pry
