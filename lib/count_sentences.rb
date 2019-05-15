@@ -18,7 +18,5 @@ class String
     string = self.squeeze(".!?")
     array = string.split(/[.?!]/)
     array.count
-
-    binding.pry
   end
 end
