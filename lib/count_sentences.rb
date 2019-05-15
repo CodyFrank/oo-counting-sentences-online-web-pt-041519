@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    array = self.squeeze(".", "!")
+    array = self.squeeze(".!")
 
 
     binding.pry
